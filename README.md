@@ -1,7 +1,8 @@
 # Github_H1-02.05.23
 _______
 #### This homework covered the basic commands for working with local and remote repositories. We also got acquainted with the JSON and XML data transfer formats
-**Let's take a closer look at the commands using the example of a JSON repository** 
+
+## $${\color{Indigo}Let's\space take\space a\space closer\space look\space at\space the\space basic\space commands\space using\space the\space example\space of\space a\space JSON\space repository}$$ 
 
 _____
 ## JSON repository
@@ -24,4 +25,4 @@ _____
 + Create new file the remote repository JSON 
 + Synchronize remote and local JSON repository - ***git pull***
 
- ![Screenshot_2](https://user-images.githubusercontent.com/97529029/235935119-c8227543-9ff7-44b4-a4f5-e5576da83681.png)
+     ![Screenshot_2](https://user-images.githubusercontent.com/97529029/235935119-c8227543-9ff7-44b4-a4f5-e5576da83681.png)
