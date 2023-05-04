@@ -14,7 +14,7 @@
    "Lastname":"Tur",
    "age":29,
    "Pets":2, 
-   "expected salary":500
+   "expected_salary":500
 }
 ```
 + The command for  addition a change in the working directory to the staging area - ***git add new.json***
