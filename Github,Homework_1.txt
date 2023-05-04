@@ -11,17 +11,17 @@ JSON
    "Lastname":"Tur",
    "age":29,
    "Pets":2, 
-   "expected salary":500
+   "expected_salary":500
 }
  11. Отправить изменения на внешний репозиторий  -  git add new.json,  git commit -m "make changes", git push
  12. Создать файл preferences.json - touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях в формате JSON  - vim preferences.json
 {
-   "favoriteFilm":"words",
-   "favoriteSitcom": "Scrubs",
-   "favoriteEat":"chicken",
-   "favoriteSeason":"summer",
-   "favoriteCountry": "Norway"
+   "favorite_Film":"words",
+   "favorite_Sitcom": "Scrubs",
+   "favorite_Eat":"chicken",
+   "favorite_Season":"summer",
+   "favorite_Country": "Norway"
 }
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - touch skills.json, vim skills.json 
 {
@@ -29,8 +29,8 @@ JSON
    "Terminal": "Git",
    "Tool for API":"Postman",
    "Database":"MySQL",
-   "Tools for traffic interception":"Charles",
-   "Mobile testing":"Android Studio"
+   "Tools_for_traffic_interception":"Charles",
+   "Mobile_testing":"Android Studio"
 }
  15. Отправить сразу 2 файла на внешний репозиторий  -   git add ., git commit -m "add 2 files", git push
  16. На веб интерфейсе создать файл bug_report.json - add file, create new file
@@ -39,11 +39,11 @@ JSON
 {  
   bug report:
              {"id": 1,
-              " Summary": "The word Cashback doesn't translate to Russian in the burger menu"
+              "Summary": "The word Cashback doesn't translate to Russian in the burger menu",
               "Description":"The user can see the word Cashback instead Кэшбек by opening the burger menu",
-              "Steps to reproduce": "Open the burger menu in the Homepage",
-              "Actual result": "The word "Cashback" is displayed in the menu",
-              "Expected result": "the word Cashback sould be in Russian - Кэшбек",
+              "Steps_to_reproduce": "Open the burger menu in the Homepage",
+              "Actual_result": "The word Cashback is displayed in the menu",
+              "Expected_result": "the word Cashback sould be in Russian - Кэшбек",
               "Environment":"Iphone XS"
               }
 }   
@@ -66,7 +66,7 @@ XML
     <lastname>Tur</lastname>
     <age>29</age>
     <pets>cat</pets>
-    <expected salary>500</expected salary>
+    <expected_salary>500</expected_salary>
   </person>
 
  28. Отправить изменения на внешний репозиторий - git commit -am "make changes", git push
@@ -74,11 +74,11 @@ XML
  30. В файл preferences.xml добавить информацию о своих предпочтениях в формате XML - vim preferences.xml
 <?xml version="1.0" encoding="UTF-8"?>
  <person>
-  <favoriteFilm>V for Vendetta</favoriteFilm>
-  <favoriteSerial>black mirror</favoriteSerial>
-  <favoriteFood>chicken</favoriteFood>
+  <favorite_Film>V for Vendetta</favorite_Film>
+  <favorite_Serial>black mirror</favorite_Serial>
+  <favorite_Food>chicken</favorite_Food>
   <season>summer</season>
-  <favoriteCountry>Norway</favoriteCountry>
+  <favorite_Country>Norway</favorite_Country>
 </person>
 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML - touch skills.xml, vim skills.xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -87,7 +87,7 @@ XML
   <API>Postman</API>
   <Database>MySQL</Database>
   <Sniffers>Charles</Sniffers>
-  <Mobile>Android Studio<Mobile>
+  <Mobile>Android_Studio</Mobile>
  </skills>
 
  32. Сделать коммит в одну строку - git commit -am "Add two files"
@@ -96,13 +96,13 @@ XML
  35. Сделать Commit changes (сохранить) изменения на веб интерфейс - commit changes
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML - edit file
 <?xml version="1.0" encoding="UTF-8"?>
-<bug report>
+<bug_report>
   <id>1</id>
   <description>the font of the chapter doesn't match the figma</description>
-  <steps to reproduce>compare site with figma</steps to reproduce>
-  <excepted result>the font must be bold</excepted result>
-  <actual result>the font is normal</actual result>
-</bug report>
+  <steps_to_reproduce>compare site with figma</steps_to_reproduce>
+  <excepted_result>the font must be bold</excepted_result>
+  <actual_result>the font is normal</actual_result>
+</bug_report>
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе -commit changes
  38. Синхронизировать внешний и локальный репозиторий XML - git pull
 
