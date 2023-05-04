@@ -1,7 +1,7 @@
 # Github_H1-02.05.23,
 
-#### This homework covered the basic commands for working with local and remote repositories. We also got acquainted with the JSON and XML data transfer formats
-## $${\color{Teal}Let's\space take\space a\space closer\space look\space at\space the\space basic\space commands\space using\space the\space example\space of\space a\space JSON\space repository}$$ 
+### This homework covered the basic commands for working with local and remote repositories. We also got acquainted with the JSON and XML data transfer formats
+## $${\color{Teal}Let's\space take\space a\space look\space at\space the\space basic\space commands\space using\space the\space example\space of\space a\space JSON\space repository}$$ 
 
 ### JSON repository
 + To clone a remote repository to a local one, use the command - ***git clone https://github.com/Kristinatur09/Json_1.git***
